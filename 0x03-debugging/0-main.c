@@ -10,14 +10,7 @@ int main(void)
         int i;
 
         i = 98;
-        if (positive_or_negative(i) == "0 is zero")
-	{
-		printf("%d is zero", i);
-	}
-	else
-	{
-		positive_or_negative(i);
-	}
+        positive_or_negative(i);
 
         return (0);
 }
